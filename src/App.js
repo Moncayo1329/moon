@@ -2,6 +2,7 @@ import './App.css';
 import React from 'react'
 import UseState from './usestate';
 import Array from './array'
+import Objectexample from './Objectexample'
 
 
 
@@ -10,6 +11,8 @@ return(
 <React.Fragment>
 <UseState />
 <Array />
+<Objectexample />
+
 
 </React.Fragment>
 
