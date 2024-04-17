@@ -9,8 +9,24 @@ message:'random message',
 
 });
 
+
+
+const[name,setName] = useState('peter')
+const[age,setAge] = useState('24')
+const[Message,setMessage] = useState('random message')
+
+
+
+
+
+
+
+
+
+
 const changeMessage = () => {
-setPerson({...person, message:'te odio araujo'});
+//setPerson({...person, message:'te odio araujo'});
+setMessage('hello world')
 
 };
 
@@ -18,9 +34,9 @@ setPerson({...person, message:'te odio araujo'});
 return(
 
     <React.Fragment>
-<h2>{person.name}</h2>
-<h2>{person.age}</h2>
-<h2>{person.message}</h2>
+<h2>{name}</h2>
+<h2>{age}</h2>
+<h2>{Message}</h2>
 <button className="btn" onClick={changeMessage}>
     change message
 </button>
