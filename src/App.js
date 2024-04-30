@@ -4,6 +4,7 @@ import UseState from './usestate';
 import Array from './array'
 import Objectexample from './Objectexample'
 import UseStateCounter from './useStateCounter';
+import Usebasic from './useeffect';
 
 
 
@@ -14,6 +15,7 @@ return(
 <Array />
 <Objectexample />
 <UseStateCounter />
+<Usebasic />
 
 
 </React.Fragment>
