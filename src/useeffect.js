@@ -3,10 +3,13 @@ import React, { useState, useEffect } from "react";
 
 function UseBasic() {
   const [value, setValue] = useState(0);
-
   useEffect(() => {
-    document.title = `New messages (${value})`; // Cambio aquí
-  });
+    if(value>=1) {
+    
+    document.title = `New messages (${value})`; 
+}
+  },[value]);
+
 
   return (
     <>
