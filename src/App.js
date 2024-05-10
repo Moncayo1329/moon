@@ -7,6 +7,7 @@ import UseStateCounter from './useStateCounter';
 import Usebasic from './useeffect';
 import Cleanup from './Cleanup';
 import Fetchargument from './Fetchdata';
+import Multiple from './multiple';
 
 
 
@@ -20,6 +21,7 @@ return(
 <Usebasic />
 <Cleanup />
 <Fetchargument />
+<Multiple />
 
 
 </React.Fragment>
