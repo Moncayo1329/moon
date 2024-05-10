@@ -8,6 +8,7 @@ import Usebasic from './useeffect';
 import Cleanup from './Cleanup';
 import Fetchargument from './Fetchdata';
 import Multiple from './multiple';
+import ShowHide from './showhide';
 
 
 
@@ -22,6 +23,7 @@ return(
 <Cleanup />
 <Fetchargument />
 <Multiple />
+<ShowHide />
 
 
 </React.Fragment>
