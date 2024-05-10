@@ -9,6 +9,7 @@ import Cleanup from './Cleanup';
 import Fetchargument from './Fetchdata';
 import Multiple from './multiple';
 import ShowHide from './showhide';
+import Inputs from './form';
 
 
 
@@ -24,6 +25,7 @@ return(
 <Fetchargument />
 <Multiple />
 <ShowHide />
+<Inputs />
 
 
 </React.Fragment>
