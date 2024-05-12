@@ -27,7 +27,7 @@ return (
 </div> 
 <div className="form-control">
  <label htmlFor="email"> email:  </label>
- <input type="text" id="email" name="email" value={email}/> 
+ <input type="text" id="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)}/> 
  </div>   
  <button type="submit"> add person </button>
 
