@@ -10,6 +10,7 @@ import Fetchargument from './Fetchdata';
 import Multiple from './multiple';
 import ShowHide from './showhide';
 import Inputs from './form';
+import UseRefBasic from './useref';
 
 
 
@@ -26,6 +27,7 @@ return(
 <Multiple />
 <ShowHide />
 <Inputs />
+<UseRefBasic />
 
 
 </React.Fragment>
