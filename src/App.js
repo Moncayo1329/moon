@@ -11,6 +11,7 @@ import Multiple from './multiple';
 import ShowHide from './showhide';
 import Inputs from './form';
 import UseRefBasic from './useref';
+import UseReducer from './UseReducer';
 
 
 
@@ -28,6 +29,7 @@ return(
 <ShowHide />
 <Inputs />
 <UseRefBasic />
+<UseReducer />
 
 
 </React.Fragment>
