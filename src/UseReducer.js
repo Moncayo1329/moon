@@ -9,6 +9,17 @@ const UseReducer = () => {
     const [showModal, setShowModal] = useState(false);
     const handleSubmit = (e) => {
     e.preventDefault();
+    if(name){
+  setShowModal(true);
+  setPeople([...people,{id: new Date().getTime().toString
+  (), name }]);
+  setName('')
+} else{
+
+setShowModal(true)
+
+}
+
     };
     
     
@@ -32,6 +43,16 @@ onChange={(e) => setName(e.target.value)}
 <button type="submit">add person</button>
 
 </form>
+{people.map((person) => {
+
+return(
+    <div key={person.id}>
+  <h4>{person.name}</h4>
+
+    </div>
+
+);
+})}
 
 </>
 )
